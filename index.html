@@ -60,6 +60,13 @@
           background-size: cover;
       }
   </style>
+ 
+
+<script>
+  function redirectToPage() {
+    window.location.href = "Signup.html";
+  }
+</script>
   
 </head>
 
@@ -91,7 +98,7 @@
                   <div>
                       <input type="submit"  class="btn btn-light" value="LogIn"></form>
                     
-                      <button onclick="window.open('SignUp.html')" class="btn btn-light" >SignUp</button>
+                       <button class="btn btn-light" onclick="redirectToPage()">SignUp</button>
                       <input type="reset" name="Reset" value="Reset" class="btn btn-light"><br>
                       <h6 style="font-size: 70%;"><a href="Forgot.html" target="_blank">Forgot Password</a></h6>
                   </div>
